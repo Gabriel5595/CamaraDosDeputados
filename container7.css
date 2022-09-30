@@ -1,0 +1,29 @@
+.container7 {
+    width: 1000px;
+    margin: 0 auto
+}
+
+.container7Texto h3 {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(3, 66, 95);
+    font-weight: bold;
+}
+
+.container7Texto p {
+    text-align: justify;
+}
+
+#container7subtitulo {
+    font-size: 20px;
+    color: rgb(50, 52, 53);
+    font-weight: bold;
+}
+
+.container7 .alinhaBotao {
+    margin-top: 50px;
+}
+
+.container7 .alinhaBotao button {
+    width: 500px;
+}

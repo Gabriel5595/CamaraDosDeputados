@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+html {
+    font-family: Karla;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 20px;
+}
+
+.container1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://static.poder360.com.br/2021/12/camara-deputados-scaled.jpg);
+    background-size: cover;
+    height: 700px;
+    display: block;
+}
+
+.conteudo1 nav {
+    position: sticky;
+}
+
+.conteudo1 nav ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: flex-end;
+}
+.conteudo1 nav ul li{
+    padding: 10px;
+}
+.conteudo1 nav ul li:hover{
+    background-color:rgb(27, 110, 148) ;
+}
+.conteudo1 nav ul li a {
+    font-size: 0.85em; 
+    color: white; 
+    text-decoration: none;
+}
+
+.conteudo1 p, h1 {
+    text-align: center; 
+    color: white;
+}
+.conteudo1 h1 {
+    margin: 250px 0 0 0; 
+    font-size: 56px; 
+    text-shadow: rgb(3, 66, 95) 0.01em 0.09em 0em;
+}
+.conteudo1 p {
+    font-size: 20px; 
+    text-shadow: rgb(3, 66, 95) 0.01em 0.09em 0em;
+}
+
+.alinhaBotao {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+button {
+    background-color: rgb(3, 66, 95); 
+    border: none; 
+    border-radius: 5px; 
+    color: white; 
+    padding: 10px 30px 10px 30px; 
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(27, 110, 148);
+}
+
+.containerTexto {
+    text-align: center; 
+    margin-top: 100px;
+}
+.containerTexto h3 {
+    color: rgb(3, 66, 95); 
+    font-weight: bold;
+}
+.containerTexto p {
+    font-size: 26px; 
+    color: rgb(50, 52, 53); 
+    font-weight: bold;
+}
+
+.alinhaInput {
+    text-align: center; 
+    margin-top: 50px;
+}
+input {
+    width: 300px;
+}
+.alinhaBotao button {
+    width: 310px; 
+    margin-top: -10px;
+}

@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+html {
+    font-family: Karla;
+    scroll-behavior: smooth;
+}
+
+body {padding: 20px;}
+
+.container1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://static.poder360.com.br/2021/12/camara-deputados-scaled.jpg);
+    background-size: cover;
+    height: 700px;
+    display: block;
+}
+
+.conteudo1 nav {
+    position: sticky;
+}
+
+.conteudo1 nav ul {list-style: none; display: flex; justify-content: flex-end;}
+.conteudo1 nav ul li{padding: 10px;}
+.conteudo1 nav ul li:hover{background-color:rgb(27, 110, 148) ;}
+.conteudo1 nav ul li a {font-size: 0.85em; color: white; text-decoration: none;}
+
+.conteudo1 p, h1 {text-align: center; color: white;}
+.conteudo1 h1 {margin: 250px 0 0 0; font-size: 56px; text-shadow: rgb(3, 66, 95) 0.01em 0.09em 0em;}
+.conteudo1 p {font-size: 20px; text-shadow: rgb(3, 66, 95) 0.01em 0.09em 0em;}
+
+.alinhaBotao {display: flex; justify-content: center; margin-top: 20px;}
+button {background-color: rgb(3, 66, 95); border: none; border-radius: 5px; color: white; padding: 10px 30px 10px 30px; font-weight: bold;}
+button:hover{background-color: rgb(27, 110, 148);}
+
+.containerTexto {text-align: center; margin-top: 100px;}
+.containerTexto h3 {color: rgb(3, 66, 95); font-weight: bold;}
+.containerTexto p {font-size: 26px; color: rgb(50, 52, 53); font-weight: bold;}
+
+.alinhaInput {text-align: center; margin-top: 50px;}
+input {width: 300px;}
+.alinhaBotao button {width: 310px; margin-top: -10px;}
+
+.container2 {
+    margin: 100px;
+}
+
+.container2Dep{
+    margin: 0 100px 0 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container2Dep img {
+    width: 201px;
+    margin-bottom: -5px;
+}
+
+.depInfo {
+    width: 200px;
+    border: solid 0.5px rgba(27, 110, 148, 0.249);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nomeDep, .partidoDep {
+    font-size: 26px; 
+    color: rgb(50, 52, 53); 
+    font-weight: bold;
+    text-align: center;
+}
+
+.partidoDep {
+    margin-top: -20px;
+}
+
+.detalhesDep{
+    margin: -20px 10px 0px 10px
+}
+
+.listaDetalhesDep li {
+    margin: 10px;
+}
+
+.listaDetalhesDep li span{
+    color: rgb(3, 66, 95);
+    font-weight: bold;
+}
+
+.redeDep {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.redeDep img {
+    width: 20px;
+}
+
+.container3 {
+    margin: 100px;
+}
+
+.container3Part {
+    margin: 0 50px 0 50px; 
+    padding-top: 100px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imgPart {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+}
+
+.imgPart img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: -5px;
+}
+
+.nomePart {
+    font-size: 20px; 
+    color: rgb(50, 52, 53); 
+    font-weight: bold;
+    text-align: center;
+}
+
+.redePart {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.redePart img {
+    width: 30px;
+}
+
+.container4 h3 {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(3, 66, 95);
+    font-weight: bold;
+}
+
+.container4News {
+    margin: 0px 150px 0px 150px;
+    display: flex;
+}
+
+.container4 img {
+    height: 300px;
+}
+
+.container4Texto {
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subtitulo {
+    margin: 0px;
+    padding: 0px;
+    font-size: 26px;
+    color: rgb(50, 52, 53);
+    font-weight: bold;
+    text-align: center;
+}
+
+.container4Texto .texto{
+    text-align: justify;
+    text-indent: 1.5em;
+    font-size: 14px;
+}
+
+.container4Texto .alinhaBotao {
+    text-align: center;
+}
+
+.container5Pesquisa {
+    margin: 0px 200px 0px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alinhaInput5 input {
+    height: 30px;
+}
+
+#descricaoInput {
+    width: 450px;
+}
+
+.container5Eventos {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 30px 200px 0px 200px;
+}
+
+.evento{
+    margin-right: 100px;
+}
+
+.data, .hora, .evento{
+    display: flex;
+    justify-content: space-between;
+}
+
+.data, .hora {
+    margin: 0px 20px 0px 0px;
+    width: 100px;
+    align-items: center;
+}
+
+.data p, .hora p{
+    text-align: left;
+}
+
+.evento img {
+    height: 20px;
+    margin: 10px;
+}
+
+.endereco {
+    border-left: 3px solid rgb(3, 66, 95);
+    padding-left: 10px;
+}
+
+.endereco p {
+    font-size: 14px;
+    line-height: 7px;
+}
+
+.container5 .alinhaBotao {
+    margin-top: 50px;
+}
+
+.container5 .alinhaBotao button {
+    width: 500px;
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 1000px;
+}
+
+table, td, th {
+    border: 1px solid rgba(27, 110, 148, 0.249);
+    border-collapse: collapse;
+}
+
+td, th {
+    color: rgb(50, 52, 53);
+    text-align: center;
+    padding: 10px;
+}
+
+.coluna1{
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background-color: rgba(27, 110, 148, 0.076);
+}
+
+.container7 {
+    width: 1000px;
+    margin: 0 auto
+}
+
+.container7Texto h3 {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(3, 66, 95);
+    font-weight: bold;
+}
+
+.container7Texto p {
+    text-align: justify;
+}
+
+#container7subtitulo {
+    font-size: 20px;
+    color: rgb(50, 52, 53);
+    font-weight: bold;
+}
+
+.container7 .alinhaBotao {
+    margin-top: 50px;
+}
+
+.container7 .alinhaBotao button {
+    width: 500px;
+}
+
+footer {
+    margin-top: 70px;
+    padding: 10px;
+    background-color: rgb(3, 66, 95);
+    text-align: center;
+    color: rgb(169, 201, 216);
+    /* border: 2px solid black; */
+}
+
+.seta img{
+    height: 20px;
+}
+
+.seta {
+    position: fixed;
+    bottom: 45px;
+    right: 60px;
+}

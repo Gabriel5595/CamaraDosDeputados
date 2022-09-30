@@ -1,0 +1,62 @@
+.container5Pesquisa {
+    margin: 0px 200px 0px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alinhaInput5 input {
+    height: 30px;
+}
+
+#descricaoInput {
+    width: 450px;
+}
+
+.container5Eventos {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 30px 200px 0px 200px;
+}
+
+.evento{
+    margin-right: 100px;
+}
+
+.data, .hora, .evento{
+    display: flex;
+    justify-content: space-between;
+}
+
+.data, .hora {
+    margin: 0px 20px 0px 0px;
+    width: 100px;
+    align-items: center;
+}
+
+.data p, .hora p{
+    text-align: left;
+}
+
+.evento img {
+    height: 20px;
+    margin: 10px;
+}
+
+.endereco {
+    border-left: 3px solid rgb(3, 66, 95);
+    padding-left: 10px;
+}
+
+.endereco p {
+    font-size: 14px;
+    line-height: 7px;
+}
+
+.container5 .alinhaBotao {
+    margin-top: 50px;
+}
+
+.container5 .alinhaBotao button {
+    width: 500px;
+}

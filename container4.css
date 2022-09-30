@@ -1,0 +1,41 @@
+.container4 h3 {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(3, 66, 95);
+    font-weight: bold;
+}
+
+.container4News {
+    margin: 0px 150px 0px 150px;
+    display: flex;
+}
+
+.container4 img {
+    height: 300px;
+}
+
+.container4Texto {
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subtitulo {
+    margin: 0px;
+    padding: 0px;
+    font-size: 26px;
+    color: rgb(50, 52, 53);
+    font-weight: bold;
+    text-align: center;
+}
+
+.container4Texto .texto{
+    text-align: justify;
+    text-indent: 1.5em;
+    font-size: 14px;
+}
+
+.container4Texto .alinhaBotao {
+    text-align: center;
+}

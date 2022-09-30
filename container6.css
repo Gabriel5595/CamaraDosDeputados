@@ -1,0 +1,32 @@
+.tabela {
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 1000px;
+}
+
+table, td, th {
+    border: 1px solid rgba(27, 110, 148, 0.249);
+    border-collapse: collapse;
+}
+
+td, th {
+    color: rgb(50, 52, 53);
+    text-align: center;
+    padding: 10px;
+}
+
+.coluna1{
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background-color: rgba(27, 110, 148, 0.076);
+}
+
+.container7 {
+    width: 1000px;
+    margin: 0 auto
+}

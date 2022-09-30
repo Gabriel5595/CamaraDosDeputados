@@ -1,0 +1,57 @@
+.container2 {
+    margin: 100px;
+}
+
+.container2Dep{
+    margin: 0 100px 0 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container2Dep img {
+    width: 201px;
+    margin-bottom: -5px;
+}
+
+.depInfo {
+    width: 200px;
+    border: solid 0.5px rgba(27, 110, 148, 0.249);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nomeDep, .partidoDep {
+    font-size: 26px; 
+    color: rgb(50, 52, 53); 
+    font-weight: bold;
+    text-align: center;
+}
+
+.partidoDep {
+    margin-top: -20px;
+}
+
+.detalhesDep{
+    margin: -20px 10px 0px 10px
+}
+
+.listaDetalhesDep li {
+    margin: 10px;
+}
+
+.listaDetalhesDep li span{
+    color: rgb(3, 66, 95);
+    font-weight: bold;
+}
+
+.redeDep {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.redeDep img {
+    width: 20px;
+}
